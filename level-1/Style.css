@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 170px;
+  background-color: green;
+  color: white;
+  height: 100vh;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers text horizontally */
+}
+
+.item {
+  font-weight: bold;
+  margin: 18px 0; /* more spacing between items */
+  font-size: 20px; /* slightly larger text */
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.item:hover {
+  opacity: 0.8; /* small visual effect on hover */
+}
